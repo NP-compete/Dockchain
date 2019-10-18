@@ -2,6 +2,20 @@
 
 Create a blockchain in a docker container, because all problems are solvable with containers and blockchains.
 
+## Usage
+
+### Docker
+
+```shell
+docker run --rm --name dockchain sohamdutta0109/dockchain
+```
+
+### Kubernetes
+
+```shell
+kubectl apply -f 
+```
+
 
 ## Options
 
