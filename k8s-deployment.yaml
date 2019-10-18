@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dockchain-deployment
+  labels:
+    app: dockchain
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dockchain
+  template:
+    metadata:
+      labels:
+        app: dockchain
+    spec:
+      containers:
+      - name: dockchain
+        image: sohamdutta0109/dockchain
+        env:
+        - name: WAIT_PERIOD
+          value: 1
