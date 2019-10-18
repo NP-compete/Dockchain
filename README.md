@@ -13,7 +13,7 @@ docker run --rm --name dockchain sohamdutta0109/dockchain
 ### Kubernetes
 
 ```shell
-kubectl apply -f 
+kubectl apply -f https://raw.githubusercontent.com/NP-compete/Dockchain/master/k8s-deployment.yaml
 ```
 
 
